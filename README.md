@@ -73,7 +73,7 @@ MIT.
 
 ## Contact Me
 
-If you have any problem, please contact me at <liberize@gmail.com>.
+DO NOT MAIL ME FOR NON-ALGORITHMIC QUESTIONS.
 
 [Demo1]:            https://raw.githubusercontent.com/liberize/flame-detection-system/master/images/2.gif
 [Demo2]:            https://raw.githubusercontent.com/liberize/flame-detection-system/master/images/6.gif
