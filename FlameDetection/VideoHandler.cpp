@@ -8,6 +8,7 @@
 
 #include "VideoHandler.h"
 
+//detection real time in camera
 VideoHandler::VideoHandler(int device, bool saveKeyFrame, bool saveVideo)
 : mCapture(device)
 , mSaveKeyFrame(saveKeyFrame)
@@ -22,7 +23,7 @@ VideoHandler::VideoHandler(int device, bool saveKeyFrame, bool saveVideo)
         }
     }
 }
-
+//read and detaction in video
 VideoHandler::VideoHandler(const string& file, bool saveKeyFrame)
 : mCapture(file)
 , mSaveKeyFrame(saveKeyFrame)
