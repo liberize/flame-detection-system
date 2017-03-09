@@ -18,7 +18,8 @@ VideoHandler* videoHandler = NULL;
 
 int main(int argc, const char* argv[])
 {
-    VideoHandler handler("clips/6.avi");
+    //VideoHandler handler(0,true); //detection realtime 
+    VideoHandler handler("clips/6.avi"); //detection in vedio
     videoHandler = &handler;
     
     int ret = handler.handle();
